@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     >
+<ListView
+        android:id="@+id/stops"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#ffffff"
+        android:dividerHeight="2px"
+        android:scrollbars="vertical"
+ 		android:scrollbarAlwaysDrawVerticalTrack="true"
+ 		android:scrollX="0px"
+ 		android:scrollY="0px"
+         android:layout_weight="1"
+ 		android:scrollbarStyle="outsideOverlay"
+ 		android:fadeScrollbars="false"
+ 		android:scrollbarSize="20dip"
+ 		/>
+
+    
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:text=" Ok "
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/image"
+        
+        />
+    
+   
+
+
+</LinearLayout>

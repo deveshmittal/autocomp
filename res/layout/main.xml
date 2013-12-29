@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/base">
+<!-- <com.google.android.maps 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+     xmlns:map="http://schemas.android.com/apk/res-auto" 
+    android:id="@+id/mapView" 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent" 
+     android:clickable="true" 
+      />
+       --> 
+<!-- 
+<fragment
+class="com.google.android.gms.maps.SupportMapFragment"
+android:id="@+id/map"  
+android:layout_width="match_parent"
+android:layout_height="match_parent"/>
+-->
+<!-- 
+<fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+ -->
+        <fragment
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.google.android.gms.maps.MapFragment" />       
+  <!--    <com.google.android.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:apiKey="AIzaSyAFUL168IsKUzMizgIW2wjw8kRJ4v_xsfY"
+/>     
+  -->  
+ </RelativeLayout>

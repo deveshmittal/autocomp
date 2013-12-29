@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ListView
+        android:id="@+id/legsLen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ff0000"
+        android:dividerHeight="2px"
+        >
+    </ListView>
+<TextView
+             android:id="@+id/transits"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+  
+</LinearLayout>
+
+<!-- 
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+</LinearLayout>
+   
+  <ImageView
+      android:id="@+id/cbPrevPicView"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:src="@drawable/search-route"
+      android:layout_weight="1"
+    />
+
+    <ImageView
+      android:id="@+id/cbNextPicView"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:src="@drawable/ic_launcher"
+      android:layout_weight="1"
+    />
+
+         <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+          
+           android:dividerHeight="1dp"
+        
+                   <TextView
+        android:id="@+id/provider"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+        
+         -->
+    
+          
+             
+             
+
+
+
+
+
+
+
+

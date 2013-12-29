@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:gravity="center_vertical"
+     android:background="@color/cream"
+    tools:context=".PlacesAutocompleteActivity" >
+
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     android:background="@drawable/textshadow" >
+      <ImageView 
+ android:id="@+id/mrkstart" 
+ android:layout_width="60dp"  
+android:layout_height="50dp"
+ android:src="@drawable/marker_start" />
+      
+  <AutoCompleteTextView android:id="@+id/autocompleteFrom" android:layout_height="wrap_content"  android:background="@drawable/textview_shadow"  android:layout_width="240dp" android:singleLine="true" android:hint="From"  android:gravity="left" android:layout_gravity="center_vertical">
+    
+<requestFocus></requestFocus>
+</AutoCompleteTextView>
+<ImageView 
+ android:id="@+id/delsrc" 
+ android:layout_width="30dp"  
+android:layout_height="30dp"
+ android:src="@drawable/abs__ic_clear_search_api_holo_light" />
+ </LinearLayout>
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+     android:background="@drawable/textshadow" >
+  <ImageView 
+ android:id="@+id/mrkend" 
+ android:layout_width="60dp"  
+android:layout_height="50dp"
+ android:src="@drawable/marker_end" />
+  <AutoCompleteTextView android:id="@+id/autocompleteTo" android:layout_height="wrap_content"  android:background="@drawable/textview_shadow" android:layout_width="240dp" android:singleLine="true" android:hint="To" android:gravity="left" android:layout_gravity="center_vertical">
+    
+<requestFocus></requestFocus>
+</AutoCompleteTextView>
+<ImageView 
+ android:id="@+id/deldest" 
+ android:layout_width="30dp"  
+android:layout_height="30dp"
+ android:src="@drawable/abs__ic_clear_search_api_holo_light" />
+ </LinearLayout>
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+<!-- 
+ <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/buttonSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrive" />
+         
+         
+    <TextView
+        android:id="@+id/arrTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ArrT" />  
+    
+    
+ </LinearLayout>
+  -->
+ <!-- 
+ <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depart" />
+
+ 
+    <TextView 
+    	android:id="@+id/depTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Now" />
+    
+    
+     </LinearLayout>
+     -->
+    </LinearLayout>
+
+  <!--  <ImageView 
+ android:id="@+id/srchImg" 
+ android:layout_width="30dp"  
+android:layout_height="20dp"
+ android:src="@drawable/step_ghetto" />
+  -->
+ <!--     <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depart" />
+         -->
+        <LinearLayout
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+             <ImageView
+            android:src="@drawable/step_wait"
+            android:layout_width="30dp"  
+			android:layout_height="40dp" />
+     <EditText android:id="@+id/editTexts"
+android:layout_width="fill_parent"
+android:inputType="none"
+android:focusable="false"
+android:layout_height="wrap_content" />
+     
+      </LinearLayout>
+       <LinearLayout
+            android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:orientation="horizontal">
+     <Button
+    android:id="@+id/Go"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Find Routes" />
+     </LinearLayout>
+ <!--      <Button
+        android:id="@+id/findRoutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depart" />
+        -->
+ <!--   <TextView 
+    	android:id="@+id/depTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Now" />
+        -->
+  <!-- 
+<Button
+    android:id="@+id/Go"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Go" />
+ -->
+ <!--   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+     <TextView
+        android:id="@+id/arrTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ArrT" />  
+        
+<TextView 
+    	android:id="@+id/depTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Now" />
+        
+    </LinearLayout>
+   -->
+  <!--  <fragment
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.google.android.gms.maps.MapFragment" />     
+ -->
+  </LinearLayout>
+  

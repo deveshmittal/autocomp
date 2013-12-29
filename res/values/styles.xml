@@ -1,0 +1,17 @@
+<resources>
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+   
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+</resources>
+
+<!-- 
+ <style name="custom_theme" parent="android:Theme">
+    <item name="android:scrollbarTrackVertical">@drawable/scroll_track</item>
+    <item name="android:scrollbarThumbVertical">@drawable/scroll_thumb</item>
+</style>
+ -->

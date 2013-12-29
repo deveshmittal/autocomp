@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--  
+     <ExpandableListView
+                android:id="@+id/lvExp2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/> 
+
+     -->
+  
+     
+     
+     
+     
+     
+     <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <!-- 
+   <AutoCompleteTextView android:id="@+id/autocompleteFrom1" android:layout_height="wrap_content" android:layout_width="280dp"   android:hint="@string/Select" android:drawableRight="@drawable/searchitx">
+    
+<requestFocus></requestFocus>
+</AutoCompleteTextView>
+    
+   
+   <ImageView 
+ android:id="@+id/srchImg" 
+ android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:src="@drawable/logo_actionbar2" />
+        -->
+   
+   <!-- 
+   
+     <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search" />
+         -->
+    </LinearLayout>
+  <!--   
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nearest" /> 
+
+  
+
+ 
+      <Spinner
+    android:id="@+id/stops_spinner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+      />
+     
+      </LinearLayout>
+      -->
+       
+  <fragment
+    android:id="@+id/mapsStop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.google.android.gms.maps.MapFragment" />    
+    
+ 
+  
+  
+  
+   
+</LinearLayout>

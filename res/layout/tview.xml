@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    >   
+    
+    
+    <ImageView 
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/taxi" />
+    
+    
+    <TextView 
+        android:id="@+id/textTaxName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Fare"
+         />
+    
+       <TextView 
+        android:id="@+id/textRup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Rs"
+        android:layout_marginLeft="20dip"
+         />
+    
+    
+    <TextView 
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Fare"
+         />
+    
+    
+   <ImageButton
+    android:id="@+id/btncall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/phone32"
+    android:layout_marginLeft="100dip"
+     />
+    
+  </LinearLayout>

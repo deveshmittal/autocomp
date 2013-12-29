@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    
+      <AutoCompleteTextView android:id="@+id/autocompleteBus" android:layout_height="wrap_content" android:layout_width="280dp"   android:hint="@string/Select" android:drawableRight="@drawable/searchitx">
+    
+<requestFocus></requestFocus>
+</AutoCompleteTextView>
+    
+       
+       
+        <ImageView 
+ android:id="@+id/srchImg" 
+ android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:src="@drawable/logo_actionbar2" />
+    
+    
+</menu>

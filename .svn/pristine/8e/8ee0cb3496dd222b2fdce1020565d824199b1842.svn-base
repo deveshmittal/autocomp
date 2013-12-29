@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+       <item
+        android:id="@+id/mapper"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/mapcolor_icon"
+        android:title="MAP"/>
+       
+       <item android:id="@+id/item_text"
+      android:orderInCategory="1"
+        android:showAsAction="always"
+         android:layout_width="match_parent"
+          android:layout_gravity="left"
+          android:gravity="left"
+        android:actionLayout="@layout/action_text"/>
+
+</menu>

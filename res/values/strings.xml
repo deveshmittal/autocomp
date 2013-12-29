@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoComp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="FROM">FROM</string>
+    <string name="TO">TO</string>
+    <string name="ArrT">Arrival Time</string>
+    <string name="Now">Departure Time</string>
+    <string name="error_when_retrieving_data">Error</string>
+    <string name="title_activity_map">Map</string>
+    <string name="Dist">Distance-></string>
+    <string name="Dur">Duration-></string>
+    <string name="Fare">Fare-></string>
+    <string name="Rs">\u20B9</string>
+    <string name="title_activity_mapping">MappingAct</string>
+    <string name="title_activity_map_radius">MapRadius</string>
+    <string name="title_activity_activity_transit">ActivityTransit</string>
+    <string name="Select">Select Stops</string>
+    <string name="rupees">\u20B9</string>
+   	<string name="degree">\u00B0</string>
+    
+    <string name="clock">\u23f0</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="user_id_text">TestString</string>
+    <string name="dummy"></string>
+    <string name="title_activity_activity_weather">ActivityWeather</string>
+
+</resources>
